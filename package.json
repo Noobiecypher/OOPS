@@ -1,0 +1,26 @@
+{
+  "name": "oops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "concurrently \"cd backend && yarn start\" \"cd frontend && yarn start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noobiecypher/OOPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noobiecypher/OOPS/issues"
+  },
+  "homepage": "https://github.com/Noobiecypher/OOPS#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
